@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AADCA27A267FEC44C0FB32D3 /* Pods_ListaCompra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3387085F16405E16E1543713 /* Pods_ListaCompra.framework */; };
 		AEBAEAEA236C91790085B84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBAEAE9236C91790085B84C /* AppDelegate.swift */; };
 		AEBAEAEC236C91790085B84C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBAEAEB236C91790085B84C /* SceneDelegate.swift */; };
 		AEBAEAEE236C91790085B84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBAEAED236C91790085B84C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3387085F16405E16E1543713 /* Pods_ListaCompra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListaCompra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBAEAE6236C91780085B84C /* ListaCompra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaCompra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBAEAE9236C91790085B84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBAEAEB236C91790085B84C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		AEBAEAF2236C91870085B84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBAEAF5236C91870085B84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBAEAF7236C91870085B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3B5D84BA55A46A5B0B2977 /* Pods-ListaCompra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaCompra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra.debug.xcconfig"; sourceTree = "<group>"; };
+		E82C3F0DE81F6E1C49E3C953 /* Pods-ListaCompra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaCompra.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADCA27A267FEC44C0FB32D3 /* Pods_ListaCompra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				AEBAEAE8236C91780085B84C /* ListaCompra */,
 				AEBAEAE7236C91780085B84C /* Products */,
+				FE35B6BBD6305D3AEBA5A2DE /* Pods */,
+				B258114023F89D3BADC7D511 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = ListaCompra;
 			sourceTree = "<group>";
 		};
+		B258114023F89D3BADC7D511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3387085F16405E16E1543713 /* Pods_ListaCompra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE35B6BBD6305D3AEBA5A2DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B5D84BA55A46A5B0B2977 /* Pods-ListaCompra.debug.xcconfig */,
+				E82C3F0DE81F6E1C49E3C953 /* Pods-ListaCompra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEBAEAFA236C91870085B84C /* Build configuration list for PBXNativeTarget "ListaCompra" */;
 			buildPhases = (
+				097D66EB3F2626ACBB455A7E /* [CP] Check Pods Manifest.lock */,
 				AEBAEAE2236C91780085B84C /* Sources */,
 				AEBAEAE3236C91780085B84C /* Frameworks */,
 				AEBAEAE4236C91780085B84C /* Resources */,
+				D1D42D1B3234153B0AE560F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097D66EB3F2626ACBB455A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListaCompra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D42D1B3234153B0AE560F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEBAEAE2236C91780085B84C /* Sources */ = {
@@ -282,6 +357,7 @@
 		};
 		AEBAEAFB236C91870085B84C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3B5D84BA55A46A5B0B2977 /* Pods-ListaCompra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +377,7 @@
 		};
 		AEBAEAFC236C91870085B84C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82C3F0DE81F6E1C49E3C953 /* Pods-ListaCompra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
